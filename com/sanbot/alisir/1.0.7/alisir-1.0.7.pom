@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sanbot</groupId>
   <artifactId>alisir</artifactId>
-  <version>1.0.6</version>
+  <version>1.0.7</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -53,6 +53,12 @@
       <groupId>com.orhanobut</groupId>
       <artifactId>logger</artifactId>
       <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support.constraint</groupId>
+      <artifactId>constraint-layout</artifactId>
+      <version>1.1.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
